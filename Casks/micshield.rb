@@ -4,7 +4,7 @@ cask "micshield" do
 
   url "https://github.com/kishorgaikwad2016/MicShield/releases/download/v#{version}/MicShield.dmg"
   name "MicShield"
-  desc "Hardware-level microphone kill-switch and notch HUD for macOS"
+  desc "Hardware-level microphone kill-switch and notch HUD"
   homepage "https://github.com/kishorgaikwad2016/MicShield"
 
   livecheck do
@@ -13,7 +13,7 @@ cask "micshield" do
   end
 
   auto_updates true
-  depends_on macos: ">= :sonoma"
+  depends_on macos: :sonoma
 
   app "MicShield.app"
 
